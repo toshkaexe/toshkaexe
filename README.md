@@ -56,7 +56,7 @@ Explore and solve different problems related to Data Engineering using Python.
 
 ### 6. CO2 Emission Calculator
 
-A console application in Java that calculates the amount of CO2-equivalent produced when traveling between two cities using various transportation methods.
+There is a console application in JAVA returns the amount of CO2-equivalent that will be caused when traveling between two cities using a given transportation method. https://github.com/toshkaexe/co2emission In the folder staging, you will find co2-calculator.jar  This application uses rest calls to collect coordinates of 2 cities and to create a distance in km between two cities. The is important to save a token for doing rest calls for authorization at the page https://openrouteservice.org/ The API token is stored and read from an environment variable called ORS_TOKEN. GET request from: https://openrouteservice.org/dev/#/api-docs/geocode/search/get POST request from:https://openrouteservice.org/dev/#/api-docs/v2/matrix/{profile}/post
 
 [CO2 Emission Calculator](https://github.com/toshkaexe/co2emission)
 
