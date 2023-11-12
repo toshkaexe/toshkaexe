@@ -27,12 +27,12 @@ Demonstrates the usage of semaphores, particularly in scenarios involving databa
 #### Leetcode-Tasks
 
 A collection of programs, functions, and tasks inspired by the LeetCode website. Explore various algorithms and solve coding problems.
-
+[Leetcode-Tasks Implementation][Check out the project](https://github.com/toshkaexe/leetcode/tree/main/src/main/java/leetcode/demo/tasks)
 ### 3. Online Audiobook Player (Work in Progress)
 
 A new project focused on creating an online player and storage for audiobooks with a bookmark function and the ability to continue listening.
 
-[Check out the project](https://github.com/toshkaexe/player)
+[Online Audiobook Player Implementation][Check out the project](https://github.com/toshkaexe/player)
 
 ### 4. RestAPI Projects
 
@@ -63,5 +63,14 @@ A console application in Java that calculates the amount of CO2-equivalent produ
 #### Example Usage:
 
 ```bash
-$ java -jar co2-calculator.jar --start Berlin --end Kassel --transportation-method=train
-Your trip caused: 2462.9kg of CO2-equivalent
+    $ java -jar co2-calculator.jar --start Berlin --end Kassel --transportation-method=train
+    Your trip caused: 2462,9kg of CO2-equivalent
+
+    $ java -jar co2-calculator.jar --start "Los Angeles" --end "New York" --transportation-method small-diesel-car
+    Your trip caused: 640313,9kg of CO2-equivalent
+    
+    $ java -jar co2-calculator.jar --start "Los Angeles" --end "New York" --transportation-method=large-diesel-car
+     Your trip caused: 942433,8kg of CO2-equivalent
+     
+    $ java -jar co2-calculator.jar --start "Hamburg" --end "Kassel" --transportation-method=bus
+    Your trip caused: 8409,0kg of CO2-equivalent
