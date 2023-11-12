@@ -2,7 +2,10 @@
 
 ## About Me
 
-Hi, I'm Tony, a passionate software engineer with a keen interest in machine learning. Currently, I'm expanding my skills in Python and Java.
+Hello! I'm Tony, a software engineer.
+Welcome to my repository! Here, you can find many interesting challenges. Currently, I'm working on creating a new project focused on developing an [online player](https://github.com/toshkaexe/player)
+and storage for audiobooks with bookmark functionality and the ability to resume listening.
+
 
 ## Projects
 
